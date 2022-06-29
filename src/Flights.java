@@ -47,15 +47,6 @@ public class Flights {
         return new Plane("nonexistent", "nowhere", -1);
     }
     public static void main(String[] args){
-        Flights f = new Flights("src/Airport.csv");
-        //System.out.println(f.findFlight("Southwest", "Denver", 0, 300));
-        //System.out.println(f.findFlight("Southwest", "Denver", 0, 100));
-
-        ArrayList<Plane> test = f.FlightList;
-        f.sorter(test);
-        for(Plane p : test){
-            System.out.println(p);
-        }
-
+        //put your tests here
     }
 }
