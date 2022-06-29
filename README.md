@@ -6,9 +6,9 @@ Review the code provided. Answer the following questions by adding comments to y
 
 # Step One
 Answer the following questions as comments in your code:
-1. q
-2. q
-3. q
+1. Look at filter(). This is another sort of sorting--how is it filtering and what is it filtering by.
+2. findFlight() uses both filter() and sort(). How might this make finding the flight easier, and do you think it always reduces time?
+3. What are some uses of sorting for lists and why might you want to have a list sorted?
 
 # Step Two: Coding: sorter(ArrayList<Plane> p)
 Find the method `sorter(ArrayList<Plane> p)`.
