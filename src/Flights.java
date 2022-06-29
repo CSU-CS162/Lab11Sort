@@ -27,20 +27,7 @@ public class Flights {
             @Override
             public int compare(Plane a, Plane b) {
                 //Students write this
-                //compare flight name first, then city, then time
-                if(b.airline.compareTo(a.airline) == 0){
-                    if(b.city.compareTo(a.city) == 0){
-                        if (a.time > b.time){
-                            return 1;
-                        }
-                        else if (a.time < b.time){
-                            return -1;
-                        }
-                        return 0;
-                    }
-                    return b.city.compareTo(a.city);
-                }
-                return b.airline.compareTo(a.airline);
+                //compare airline first, then city, then time
             }
         });
         return p;
