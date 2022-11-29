@@ -33,25 +33,21 @@ for(Plane p : test){
 ```
 The output should look like this:
 ```
-Airline: Southwest
-City: Phoenix
-Time: 6:15
+Airline: Alitalia
+City: Milan
+Time: 15:45
 
-Airline: United
-City: Portland
-Time: 13:35
+Airline: Alitalia
+City: Toronto
+Time: 5:45
 
-Airline: United
-City: Phoenix
-Time: 4:35
+Airline: British Airways
+City: London
+Time: 12:30
 
-Airline: United
-City: Dubai
-Time: 12:35
-
-Airline: Southwest
-City: Phoenix
-Time: 12:15
+Airline: British Airways
+City: London
+Time: 12:30
 
 Airline: Southwest
 City: Denver
@@ -65,21 +61,25 @@ Airline: Southwest
 City: Denver
 Time: 14:55
 
-Airline: British Airways
-City: London
-Time: 12:30
+Airline: Southwest
+City: Phoenix
+Time: 6:15
 
-Airline: British Airways
-City: London
-Time: 12:30
+Airline: Southwest
+City: Phoenix
+Time: 12:15
 
-Airline: Alitalia
-City: Toronto
-Time: 5:45
+Airline: United
+City: Dubai
+Time: 12:35
 
-Airline: Alitalia
-City: Milan
-Time: 15:45
+Airline: United
+City: Phoenix
+Time: 4:35
+
+Airline: United
+City: Portland
+Time: 13:35
 ```
 
 # Step Three: Test sorter(ArrayList<Plane> p)
